@@ -203,7 +203,7 @@ func (p *parser) parse() (*Node, error) {
 
 			for _, att := range tok.Attr {
 				if att.Name.Local == "xmlns" {
-					// https://github.com/antchfx/xmlquery/issues/67
+					// https://github.com/tknie/xmlquery/issues/67
 					if prefix, ok := p.space2prefix[att.Value]; !ok || (ok && prefix.level >= p.level) {
 						p.space2prefix[att.Value] = &xmlnsPrefix{name: "", level: p.level} // reset empty if exist the default namespace
 					}

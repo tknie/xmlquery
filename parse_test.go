@@ -140,7 +140,7 @@ func TestDefaultNamespace_2(t *testing.T) {
 }
 
 func TestDefaultNamespace_3(t *testing.T) {
-	// https://github.com/antchfx/xmlquery/issues/67
+	// https://github.com/tknie/xmlquery/issues/67
 	// Use the duplicate xmlns on the children element
 	s := `<?xml version='1.0' encoding='UTF-8'?>
 	<bk:books xmlns:bk="urn:loc.gov:books">

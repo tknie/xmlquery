@@ -4,6 +4,8 @@
 [![GoDoc](https://godoc.org/github.com/antchfx/xmlquery?status.svg)](https://godoc.org/github.com/antchfx/xmlquery)
 [![Go Report Card](https://goreportcard.com/badge/github.com/antchfx/xmlquery)](https://goreportcard.com/report/github.com/antchfx/xmlquery)
 
+**tknie/xmlquery: Small modifications added to move nodes in the tree.**
+
 # Overview
 
 `xmlquery` is an XPath query package for XML documents, allowing you to extract
