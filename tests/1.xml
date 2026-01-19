@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<property name="bookmarks"/>
+	<style/>
+	<group>
+		<groupHeader>
+			<band height="40">
+				<property name="cheight" value="pixel"/>
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="515" height="40" forecolor="#FFFFFF" backcolor="#0000FF" uuid="5e6f64bc-a822-4ba3-b80c-edd7d8fdd382">
+						<property name="cx" value="pixel"/>
+						<property name="y" value="pixel"/>
+						<property name="height" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["First Group Header"]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		</group>
+</test>
